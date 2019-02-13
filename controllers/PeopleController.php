@@ -11,6 +11,7 @@ class PeopleController
 	}
 	
 	public function create(){
+<<<<<<< HEAD
 		//1. hien thi form ra cho nguoi dun
 		include('views/people/form.php');
 	}
@@ -57,4 +58,12 @@ class PeopleController
         return header("Location: index.php?task=index");
 
     }
+=======
+		echo " nguoi dung muon create ban ghi";
+	}
+	
+	public function bay(){
+		echo " bay";
+	}
+>>>>>>> 8f51f2d944f4b0f9ddb89d1a84f9422cfd88e196
 }
