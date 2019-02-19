@@ -6,7 +6,6 @@ class PeopleModel{
 		$result = $db->query($sql);
 		return $result;
 	}
-<<<<<<< HEAD
 
 	public function store($data)
 	{
@@ -37,7 +36,4 @@ class PeopleModel{
 		return $result;
 
 	}
-
-=======
->>>>>>> 8f51f2d944f4b0f9ddb89d1a84f9422cfd88e196
 }
