@@ -3,12 +3,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
-<<<<<<< HEAD
     <script src="js/bootstrap.min.js"></script>
 </head>
-=======
-    <script src="js/bootstrap.min.js"></script></head>
->>>>>>> 8f51f2d944f4b0f9ddb89d1a84f9422cfd88e196
 <body>
 <div id="wrapper">
     <div class="row">
