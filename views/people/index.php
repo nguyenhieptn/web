@@ -30,12 +30,9 @@
     <div class="row">
         <div class="col-md-12 border">
             <h3>Danh Sach Khach Hang</h3>
-<<<<<<< HEAD
             <a href="index.php?task=create">
                 <button class="btn btn-success">Create</button>
             </a>
-=======
->>>>>>> 8f51f2d944f4b0f9ddb89d1a84f9422cfd88e196
             <table class="table table-hover">
                 <thead>
                 <tr>
@@ -44,7 +41,6 @@
                     <th>SDT</th>
                     <th>email</th>
                     <th>diachi</th>
-<<<<<<< HEAD
                     <th>Tool</th>
                 </tr>
                 </thead>
@@ -62,20 +58,6 @@
                         </td>
                     </tr>
                 <?php endwhile; ?>
-=======
-                </tr>
-                </thead>
-                <tbody>
-				<?php while($row = $data->fetch_assoc()):?>
-					<tr>
-						<td><?= $row['id']?></td>
-						<td><?= $row['name']?></td>
-						<td><?= $row['phone']?></td>
-						<td><?= $row['email']?></td>
-						<td><?= $row['address']?></td>
-					</tr>
-				<?php endwhile; ?>
->>>>>>> 8f51f2d944f4b0f9ddb89d1a84f9422cfd88e196
                 </tbody>
             </table>
         </div>
