@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6221ffa-9a5a-4433-a5f7-83c569030091" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PeopleModel.php" afterPath="$PROJECT_DIR$/models/PeopleModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mmt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,13 +28,13 @@
       <file leaf-file-name="PeopleModel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/PeopleModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66129035">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.61290324">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
-                <marker date="1550557441341" expanded="true" signature="63:83" placeholder="SELECT * FRO..people..." />
-                <marker date="1550557441341" expanded="true" signature="236:393" placeholder="INSERT INTO ..." />
-                <marker date="1550557441341" expanded="true" signature="573:618" placeholder="DELETE FROM ..." />
-                <marker date="1550557441341" expanded="true" signature="774:821" placeholder="Select * FRO..people..." />
+                <marker date="1550557452521" expanded="true" signature="63:83" placeholder="SELECT * FRO..people..." />
+                <marker date="1550557452521" expanded="true" signature="236:393" placeholder="INSERT INTO ..." />
+                <marker date="1550557452521" expanded="true" signature="573:618" placeholder="DELETE FROM ..." />
+                <marker date="1550557452521" expanded="true" signature="774:821" placeholder="Select * FRO..people..." />
               </folding>
             </state>
           </provider>
@@ -440,13 +441,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/PeopleModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66129035">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.61290324">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
-            <marker date="1550557441341" expanded="true" signature="63:83" placeholder="SELECT * FRO..people..." />
-            <marker date="1550557441341" expanded="true" signature="236:393" placeholder="INSERT INTO ..." />
-            <marker date="1550557441341" expanded="true" signature="573:618" placeholder="DELETE FROM ..." />
-            <marker date="1550557441341" expanded="true" signature="774:821" placeholder="Select * FRO..people..." />
+            <marker date="1550557452521" expanded="true" signature="63:83" placeholder="SELECT * FRO..people..." />
+            <marker date="1550557452521" expanded="true" signature="236:393" placeholder="INSERT INTO ..." />
+            <marker date="1550557452521" expanded="true" signature="573:618" placeholder="DELETE FROM ..." />
+            <marker date="1550557452521" expanded="true" signature="774:821" placeholder="Select * FRO..people..." />
           </folding>
         </state>
       </provider>
