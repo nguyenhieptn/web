@@ -1,16 +1,19 @@
 <?php
 require_once('models/PeopleModel.php');
+require_once('models/GroupModel.php');
 class PeopleController
 {
 	public function index(){
 		//lay du lieu tu model
 		$people = new PeopleModel();
 		$data = $people->getData();
-		
 		include('views/people/index.php');
 	}
 	
 	public function create(){
+        $group = new GroupModel();
+        $dataGroup = $group->getData();
+
 		//1. hien thi form ra cho nguoi dun
 		include('views/people/form.php');
 	}
@@ -24,6 +27,7 @@ class PeopleController
 		$data['phone'] = $_POST['phone'];
 		$data['address'] = $_POST['address'];
 		$data['email'] = $_POST['email'];
+		$data['group_id'] = $_POST['group_id'];
 
 		$people = new PeopleModel();
 		$data = $people->store($data);

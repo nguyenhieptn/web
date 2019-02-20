@@ -37,6 +37,7 @@
                     <th>SDT</th>
                     <th>email</th>
                     <th>diachi</th>
+                    <th>nhom</th>
                     <th>Tool</th>
                 </tr>
                 </thead>
@@ -48,6 +49,7 @@
                         <td><?= $row['phone'] ?></td>
                         <td><?= $row['email'] ?></td>
                         <td><?= $row['address'] ?></td>
+                        <td><?= $row['group_name'] ?></td>
                         <td>
                             <a href="index.php?task=destroy&id=<?= $row['id'] ?>">x</a> -
                             <a href="index.php?task=Edit&id=<?= $row['id'] ?>">e</a>

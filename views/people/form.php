@@ -50,6 +50,15 @@
                     <input type="text" name="address" class="form-control">
                 </div>
                 <div class="form-group">
+                    <label for="group">nhom</label>
+                    <select class="form-control" name="group_id">
+                        <option value="0">---chon nhom ---</option>
+                        <?php while($row = $dataGroup->fetch_assoc()): ?>
+                            <option value="<?=$row['id']?>" ><?=$row['name'] ?></option>
+                        <?php endwhile; ?>
+                    </select>
+                </div>
+                <div class="form-group">
                     <button type="reset" name="reset" class="btn btn-warning">reset</button>
                     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                 </div>
